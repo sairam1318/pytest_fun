@@ -1,0 +1,31 @@
+1. File name should start with test_
+2. Methods and classes also start with test_
+3. Python will run all test cases in currret dir or sub dir
+   starting with test_*.py or *_test.py
+
+4. To run test cases:
+    pytest or py.test --> run all test cases in current dir/sub dir
+    pytest -rA(A-All) --> gives additional information about the passed testcases even.
+    pytest filename --> to run only one specific filename
+    pytest filename -rA ->  to run all tests in that filename
+    pytest filename -rA -k(keyWord) [mathching string in methiod] --> to run specific Method in file
+    pytest -rA -k [mathching string in any Method] --> to run a method from all dir/sub dir
+    pytest -rA -k [ " ] -v --> to get additional information
+    pytest -rA --junitxml = "file.xml"
+
+5. Run pytest using markers
+    pytest filename -m "markerName"
+    pytest filename -m "markerName1 or markerName2"
+    pytest filename -m "markerName1 and markerName2"
+
+6. You can register your own custom markers at pytest.ini
+    syntax:
+        [pytest]
+            markers = 
+                markerName1: description
+                markerName2: description
+
+
+
+
+

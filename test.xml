@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite name="pytest" errors="0" failures="0" skipped="0" tests="5" time="0.073" timestamp="2021-08-12T14:00:37.002846" hostname="Sairam">
+<testcase classname="test_one" name="test_method" time="0.002" />
+<testcase classname="test_one" name="test_love" time="0.001" />
+<testcase classname="test_one" name="test_other" time="0.001" />
+<testcase classname="test_two" name="test_one" time="0.002" />
+<testcase classname="test_two" name="test_logout" time="0.001" />
+</testsuite>
+</testsuites>
