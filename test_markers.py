@@ -8,3 +8,4 @@ def test_login():
 @pytest.mark.regression
 def test_logout():
     print("Logout")
+
